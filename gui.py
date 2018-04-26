@@ -77,7 +77,7 @@ class Ui_Form(object):
         self.pushButton_4.raise_()
 
         self.retranslateUi(Form)
-        self.pushButton.clicked.connect(self.open)
+        self.pushButton.clicked.connect(Form.open)
         QtCore.QMetaObject.connectSlotsByName(Form)
         Form.setTabOrder(self.pushButton, self.pushButton_2)
         Form.setTabOrder(self.pushButton_2, self.pushButton_4)
@@ -105,5 +105,4 @@ class Ui_Form(object):
         self.label_6.setText(_translate("Form", "PCB偏角"))
         self.pushButton_2.setText(_translate("Form", "选择拍摄图1"))
         self.pushButton_4.setText(_translate("Form", "选择拍摄图2"))
-    def open():
-        file = QFileDialog.getOpenFileName()
+

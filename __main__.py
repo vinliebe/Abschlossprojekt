@@ -1,7 +1,7 @@
 import gui
 import sys
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtWidgets import QMainWindow
+from PyQt5.QtWidgets import QApplication,QMainWindow,QFileDialog
+
 
 
 class MainForm(QMainWindow):
@@ -9,7 +9,8 @@ class MainForm(QMainWindow):
         super(MainForm,self).__init__(parent)
         self.ui = gui.Ui_Form()
         self.ui.setupUi(self)
-    
+    def open(self):
+        file = QFileDialog.getOpenFileName()
 if __name__ == "__main__":
 
     app = QApplication(sys.argv)
