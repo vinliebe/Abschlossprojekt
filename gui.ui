@@ -277,8 +277,122 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>lineEdit</sender>
+   <signal>editingFinished()</signal>
+   <receiver>Form</receiver>
+   <slot>write()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>155</x>
+     <y>427</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>169</x>
+     <y>318</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_4</sender>
+   <signal>editingFinished()</signal>
+   <receiver>Form</receiver>
+   <slot>write()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>344</x>
+     <y>424</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>307</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_2</sender>
+   <signal>editingFinished()</signal>
+   <receiver>Form</receiver>
+   <slot>write()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>476</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>247</x>
+     <y>358</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_3</sender>
+   <signal>editingFinished()</signal>
+   <receiver>Form</receiver>
+   <slot>write()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>423</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>434</x>
+     <y>349</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>apply()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>519</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>307</x>
+     <y>267</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>open()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>697</x>
+     <y>78</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>544</x>
+     <y>88</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>open()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>719</x>
+     <y>122</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>543</x>
+     <y>148</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>open()</slot>
+  <slot>write()</slot>
+  <slot>apply()</slot>
  </slots>
 </ui>
